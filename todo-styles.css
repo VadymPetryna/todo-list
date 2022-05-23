@@ -1,0 +1,79 @@
+html {
+  background-image: url(data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBwgNBwcHCAcHBwcHBwoHBwcHBw8ICQcKIBEWFiARHxMYISggGBolGxMfITEhJSkrLi4uFx8zODMsNygtLisBCgoKDQ0NDg0NFSsZFRkrKysrLSsrLTcrKysrKysrKystKys3Kys3KysrKysrKystKzcrKysrKysrLSsrKysrK//AABEIAJ0BQQMBIgACEQEDEQH/xAAYAAEBAQEBAAAAAAAAAAAAAAAAAQQGAv/EABUQAQEAAAAAAAAAAAAAAAAAAAAR/8QAGQEBAQEBAQEAAAAAAAAAAAAAAgABBgMF/8QAFhEBAQEAAAAAAAAAAAAAAAAAAAER/9oADAMBAAIRAxEAPwDrQHQvhgCLAQRSAg1uKgiKRUBFgINKRUERSKgIsBKVpYqVBFgA1sgII5AQTZAEaUioCLAQRSKgjSkVBEWKgIpABrcbUB4uekBBFgIIpFQRpSKIIsBBFIANLASomyLUBpSAIikVBEUioCLAQaWACLAQaWAgikBBNkAGlIAiKRUERSKIJuNog8XPyAI0pFQRFiiCbIAlaWKlQRSLUBpSAgikBBFIqCNLFEEWAImyKgjSkUREUiiCKQAaWAgikAqIpFSiNLFQEUgINbjaIPBz2KgNKQEoikWpUEWAI0pFEEWAgiwBGtkVARYCDSxUERSKgiLFQEWAI0pFEE2QEEUgINKQBEWKgNLAQqKRR5VNxtEqPFz8i1Aa2QBEcioImyKgNLAQRYqCIpFEGlICCKQEEUgA0sBBNkVBEWKgjSkVARSAgiwBGliiVEUilQRSADW4CURY2iDxc9gIIpFQRpSKgIpAERSKgjSkURE3FEEUgA0sBBFgIIpFSoNKRUBFgINKQBEWKgibItQGlIAlRYqVKIpFqA0pAQTcbRB4ufxUBFgINbgIIpFRBFioCLAEaUioCLAQaUgIIpAERYqA1uAhUUgVBFgA0pASlRSBUGlIAiKRUBNkBBpYqAm42iDxc/ICFRSAgikAGlgIIpFQSpsioI0pFQEUgINKQBEWKJURSKlBpSAIixRKibItQGlICCKRUERSKgNLAQRYqCIpFEGtxtQHg5/ABrZAQRYCCKQEGlIAiKRRBpYAiLFRBFi1Aa2QBKixUqCLFqCNLFEEUgIIpFQRpSKIIpAQa2QEEUioCKQEVrcbUEeDn8URGliiCKQBEUioDW4CCLAqCLABpSAgiwKg0pAERSKgiLFEGtkARFIqCIpFQGlICCKQBEUioDSwATQBJ//Z);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.list {
+  font-family: cursive;
+  text-align: center;
+  color: aliceblue;
+}
+
+.addTask {
+  text-align: center;
+}
+
+.todo {
+  background: linear-gradient(to bottom, #0011ff00 0%, #ffffff 100%);
+  font-family: cursive;
+  text-align: center;
+  width: 20%;
+  padding: 11px;
+  font-size: 22px;
+  border: 1.5px solid black;
+}
+
+.addbutton {
+  background: linear-gradient(to bottom, #00000000 0%, #ffffff 100%);
+  color: #fff;
+  font-family: cursive;
+  padding: 11px;
+  font-size: 22px;
+  border: 1.5px solid gray;
+}
+
+.motivation {
+  font-family: cursive;
+  text-align: center;
+  position: absolute;
+  bottom: 20px;
+  left: 0;
+  right: 0;
+}
+
+.result {
+  display: flex;
+  justify-content: space-around;
+  padding: 11px;
+}
+
+.result-btn {
+  font-family: cursive;
+  border: 1.5px solid gray;
+  font-size: 20px;
+  cursor: pointer;
+  background: linear-gradient(to bottom, #5dc4ff 0%, #f94aff 100%);
+  color: #fff;
+  width: 150px;
+}
+
+.task {
+  border-top-left-radius: 30px;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 30px;
+  border-bottom-left-radius: 0;
+  background: linear-gradient(to right, #ec5dff 0%, #ff5353 100%);
+
+  font-family: cursive;
+  margin-left: 20px;
+  margin-top: 10px;
+  padding: 11px;
+  border: 1.5px solid black;
+  width: 40%;
+}
