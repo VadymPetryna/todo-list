@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="todo-styles.css" />
+    <title>To Do List</title>
+  </head>
+  <body>
+    <header>
+      <h1 class="list">To Do List</h1>
+    </header>
+    <div class="addTask">
+      <input type="text" class="todo" id="taskInput" placeholder="Add new task..." />
+      <button class="addbutton" id="addTask" onclick="createTask()">Add</button>
+    </div>
+    <main class="container" id="tasks"></main>
+    <div class="result">
+      <button class="result-btn">Done:</button>
+      <button class="result-btn">In progress:</button>
+      <button class="result-btn">All:</button>
+    </div>
+    <script src="index.js"></script>
+  </body>
+  <footer>
+    <p class="motivation">Don’t wish for it – work for it.</p>
+  </footer>
+</html>
